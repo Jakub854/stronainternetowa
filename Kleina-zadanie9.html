@@ -1,0 +1,29 @@
+<html>
+<body>
+<div style="color:green;font-size:57px;">
+<script language="JavaScript">
+var D1_kle=prompt("D1=","");
+var D2_kle=prompt("D2=","");
+var sekundy3;
+var sekundy1;
+var a=parseFloat(D1_kle);
+var b=parseFloat(D2_kle);
+sekundy1=a-b-1;
+sekundy1=sekundy1*86400;
+
+
+var G1_kle=prompt("G1=","");
+var G2_kle=prompt("G2=","");
+var sekundy2;
+var h;
+var c=parseFloat(G1_kle);
+var d=parseFloat(G2_kle);
+h=24-d;
+sekundy2=(h+c)*3600
+sekundy3=sekundy2+sekundy1;
+
+document.write("ilosc sekund= "+sekundy3+"s");
+</script>
+</div>
+</body>
+</html>
