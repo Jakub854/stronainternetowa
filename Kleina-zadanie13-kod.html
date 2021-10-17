@@ -1,0 +1,27 @@
+<textarea cols="120" rows="40">
+<html>
+<body>
+<div style="color:navy;font-size:40px;">
+<script language="JavaScript">
+var a_kle=prompt("Podaj pierwsza liczbe A=","");
+var b_kle=prompt("Podaj druga liczbe B=","");
+var a=parseFloat(a_kle);
+var b=parseFloat(b_kle);
+var x;
+var v;
+var z;
+var y;
+var w;
+
+x=Math.pow(a, 3);
+v=3*Math.pow(a, 2)*b;
+z=3*Math.pow(b, 2)*a;
+y=Math.pow(b, 3);
+w=x+v+z+y;
+document.write("Wczytane liczby: A="+a+" B="+b+"<br>");
+document.write("("+a+" + "+b+")^3= "+a+"^3 + 3*(("+a+")^2)*("+b+") + 3*("+a+")*(("+b+")^2) + "+b+"^3 ="+x+" + "+v+" + "+z+" + "+y+" = "+w+"");
+</script>
+</div>
+</body>
+</html>
+</textarea>
