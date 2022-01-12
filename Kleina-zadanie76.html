@@ -1,0 +1,42 @@
+<html>
+<head>
+<script language="JavaScript">
+var x=prompt("podaj pierwsza liczbe=","");
+var a=parseFloat(x);
+
+var y=prompt("podaj druga liczbe=","");
+var b=parseFloat(y);
+
+
+if(a<b)
+{
+for (var i=a; i<=b; i++)
+{
+if(i%2==1)
+{document.write("<font color=green size=14>"+i+""+"<br>");}
+}
+}
+
+
+
+if(a>b)
+{
+for (var i=a; i>=b; i--)
+{
+if(i%2==1)
+{document.write("<font color=blue size=>"+i+""+"<br>");}
+}
+
+}
+
+if(a==b)
+{
+alert("Liczba jest rowna drugiej- brak obliczen");
+}
+
+
+</script>
+</head>
+<body>
+</body>
+</html>

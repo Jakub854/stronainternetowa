@@ -1,0 +1,28 @@
+<textarea cols="120" rows="40">
+<html>
+<body>
+<script language="JavaScript">
+var liczba1=prompt("R=","")
+var R=parseFloat(liczba1);
+licznik_kle=0;
+    for(var i=-Math.round(R)-1; i<=Math.round(R)+1;i++)
+    {
+        for(var j=-Math.round(R)-1; j<=Math.round(R)+1;j++)
+        {
+		d=Math.sqrt(i*i+j*j);
+		
+		    if(d<=R)
+			{
+			licznik_kle++;
+			}
+            document.write("("+i+" , "+j+")"+"  ");
+        }
+        document.write("<br>");
+     }
+	 
+	 document.write("licznik= "+licznik_kle+"<br>");
+</script>
+</div>
+</body>
+</html>
+</textarea>

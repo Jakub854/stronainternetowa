@@ -1,0 +1,46 @@
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+var a_kle=prompt("podaj a=","");
+var a=parseFloat(a_kle);
+var b_kle=prompt("podaj b=","");
+var b=parseFloat(b_kle);
+for (var i=0;i<a;i++)
+
+   {
+       if (i==0 || i==a-1){
+       for (var j=0;j<b;j++)
+
+       {
+
+           document.write("*");  
+
+       }
+       }
+	   
+	   else{
+	   document.write("*");
+	   for (var k=0;k<b*1.5;k++)
+
+       {
+
+           document.write("&nbsp");  
+
+       }
+	   document.write("*");
+	   }
+	   
+	   
+	   
+       document.write("<br>");
+
+   }
+
+
+
+
+</script>
+</div>
+</body>
+</html>

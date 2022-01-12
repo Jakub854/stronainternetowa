@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<script language="JavaScript">
+function F(r)
+{
+r_liczba=parseFloat(r)
+
+F_wynik=r_liczba
+
+
+
+if(F_wynik==1)
+
+{kolor.innerHTML=document.write("<font color=red size=7>wpisałes kolor czerwony</font>"+"<br>");}
+
+
+if(F_wynik==2)
+
+{kolor.innerHTML=document.write("<font color=blue size=1>wpisałes kolor niebieski</font>"+"<br>");}
+
+}
+
+</script>
+
+
+
+
+</head>
+<body>
+<font color="green" size=7>Menu</font><br>
+<font color="red" size=5>1-Czerwony</font><br>
+<font color="blue" size=5>2-Niebieski</font>
+<br> <br>
+<form name="formularz" action="..." onsubmit="F(this.liczba.value);return false">
+<input size="6" name="liczba">
+<br>
+<br>
+<input TYPE="submit" Value="sprawdź" >
+<br>
+<br>
+
+
+
+</form>
+<p id="kolor"></tr>
+</body>
+</html>
