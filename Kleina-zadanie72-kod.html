@@ -1,0 +1,56 @@
+﻿<textarea cols="120" rows="40">
+<html>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+var p1 =0;
+var p2 =0;
+do {
+if(p1>=1){
+var k2=confirm("Zla liczba");
+}
+var l1_kle=prompt("Podaj pierwsza liczbe z przedzialu <20,60>","");
+p1=p1+1;
+}
+while (l1_kle > 60 || l1_kle < 20); 
+var a=parseFloat(l1_kle);
+
+
+do {
+if(p2>=1){
+var k2=confirm("Zla liczba");
+}
+var l2_kle=prompt("Podaj druga liczbe z przedzialu <20,60>","");
+p2=p2+1;
+}
+while (l2_kle > 60 || l2_kle < 20); 
+var b=parseFloat(l2_kle);
+
+var tekst_kle=prompt("Wpisz dowolny tekst","");
+
+
+
+var pocz_kle=prompt("Wpisz liczbe px od 1 do 100","");
+var px_kle=parseFloat(pocz_kle);
+
+if(a<b){
+for (var i=0;px_kle<100;i++){
+document.write("<p style=\"font-size:"+px_kle+"px; color: black;\">"+tekst_kle+"</p>");
+px_kle=px_kle+5;
+}
+
+}
+
+if(a>b){
+ for (var i=0;px_kle>0;i++){
+document.write("<p style=\"font-size:"+px_kle+"px; color: black;\">"+tekst_kle+"</p>");
+px_kle=px_kle-5;
+}
+
+}
+
+</script>
+</div>
+</body>
+</html>
+</textarea>
