@@ -1,0 +1,20 @@
+body{
+background-color:silver;
+}
+
+p{
+font-size:20mm;
+color:rgb(0, 255, 0);
+}
+
+p:lang(pl){
+font-size:27mm;
+color:rgb(255, 0, 0);
+font-weight:bold;
+}
+
+p:lang(en){
+font-size:34mm;
+color:rgb(255, 153, 51);
+font-style:italic;
+}

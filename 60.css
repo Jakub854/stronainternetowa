@@ -1,0 +1,24 @@
+div {
+width:611px;
+margin:30px;
+border-radius:10px;
+color:#000;
+}
+
+div#blok1_Kleina:hover {
+background-color:silver;
+font-size:20mm;
+color: #000;
+}
+
+div#blok2_Kleina:hover {
+background-color:yellow;
+font-size:20mm;
+color: #000
+}
+
+div#blok3_Kleina:hover {
+background-color:turquoise;
+font-size:20mm;
+color: #000
+}
